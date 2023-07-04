@@ -1,11 +1,26 @@
 # Unmaintained
 
-ddclient is unmaintained and no further changes will be done nor will issues or pull requests of any kind be accepted.
+ddclient is unmaintained; the upstream repository at
+https://github.com/ddclient/ddclient has been archived.  See
+https://github.com/ddclient/ddclient/issues/528 and
+https://github.com/ddclient/ddclient/issues/380 for more details.
 
-As alternatives consider <https://github.com/troglobit/inadyn> or <https://github.com/lopsided98/dnsupdate>.
-There will be no support for migrating of ddclient and your current provider might not be supported by those alternatives.
+This has whatever fixes I've needed for my own uses.  If other people
+want to send me pull requests, I *might* take them if I have time, but
+the reason why the origianl upstream maintainers has archived the
+repository is that ddclient is a large, legacy code base (written in
+perl) with a lot of old modules that are still using old interfaces.
+For example, the reason why I made my own fork was to fix the nsupdate
+support for IPv6, and just simply making the small fixes needed, and
+looking at the various modules for different dynamic dns
+implementations shows that maintaining this could very easily become a
+drag.
 
-See https://github.com/ddclient/ddclient/issues/528 and https://github.com/ddclient/ddclient/issues/380 for more details.
+As alternatives consider <https://github.com/troglobit/inadyn> or
+<https://github.com/lopsided98/dnsupdate>.  These alternatives don't
+support all of the providers that ddclient *might* support.
+
+- tytso
 
 ---
 
