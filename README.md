@@ -1,3 +1,14 @@
+# Unmaintained
+
+ddclient is unmaintained and no further changes will be done nor will issues or pull requests of any kind be accepted.
+
+As alternatives consider <https://github.com/troglobit/inadyn> or <https://github.com/lopsided98/dnsupdate>.
+There will be no support for migrating of ddclient and your current provider might not be supported by those alternatives.
+
+See https://github.com/ddclient/ddclient/issues/528 and https://github.com/ddclient/ddclient/issues/380 for more details.
+
+---
+
 # DDCLIENT
 
 `ddclient` is a Perl client used to update dynamic DNS entries for accounts 
@@ -55,7 +66,6 @@ through github.com. Please check out http://ddclient.net
   * Perl v5.10.1 or later
       * `IO::Socket::SSL` perl library for ssl-support
       * `JSON::PP` perl library for JSON support
-      * `IO::Socket::INET6` perl library for ipv6-support
   * Linux, macOS, or any other Unix-ish system
   * An implementation of `make` (such as [GNU
     Make](https://www.gnu.org/software/make/))
